@@ -1,3 +1,8 @@
-=================================================================
-Welcome to the documentation of application-operations-management
-=================================================================
+Application Operations Management
+=================================
+
+.. directive_wrapper::
+   :class: container-sbv
+
+   .. service_card::
+      :service_type: aom
