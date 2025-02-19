@@ -3,7 +3,7 @@
     merge-mode: squash-merge
     default-branch: main
     templates:
-      - helpcenter-base-jobs
+      - helpcenter-swiss-base-jobs
     vars:
       sphinx_pdf_files:
         - aom-api-ref.pdf
