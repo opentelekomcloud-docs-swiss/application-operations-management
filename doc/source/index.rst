@@ -8,5 +8,6 @@ Application Operations Management (AOM) is a one-stop, three-dimensional O&M man
 
    .. service_card::
       :service_type: aom
+      :cloud_environment: swiss
       :umn: This document introduces details about AOM-related operations, helping you detect faults in a timely manner and monitor the real-time running statuses of applications.
       :api-ref: This document describes application programming interfaces (APIs) of AOM and provides API parameter description and example values.
