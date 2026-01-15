@@ -28,22 +28,11 @@ Procedure
    You can configure delimiters using the following methods: If you use both methods at the same time, the union set will be selected.
 
    -  Custom delimiters: Click |image1|, enter a delimiter in the text box, and click |image2|.
-
-      .. note::
-
-         The asterisk (``*``) and question mark (?) are wildcards and cannot serve as delimiters.
-
    -  Use ASCII code: Click **Add Special Delimiters**, enter the ASCII value according to :ref:`ASCII Comparison Table <aom_02_0082__section15661144724914>`, and click |image3|.
 
 3. Preview the log content.
 
    Enter the log content to preview in the text box and click **Preview**.
-
-
-   .. figure:: /_static/images/en-us_image_0000001448643021.png
-      :alt: **Figure 1** Previewing logs
-
-      **Figure 1** Previewing logs
 
 4. Confirm the configuration and click **OK**.
 
@@ -130,6 +119,6 @@ ASCII Comparison Table
    | 31          | US (Unit separator)             | 63          | ?                 | 95          | \_                | 127         | DEL (Delete)      |
    +-------------+---------------------------------+-------------+-------------------+-------------+-------------------+-------------+-------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000001448482833.png
-.. |image2| image:: /_static/images/en-us_image_0000001448562689.png
-.. |image3| image:: /_static/images/en-us_image_0000001448802689.png
+.. |image1| image:: /_static/images/en-us_image_0000002254811868.png
+.. |image2| image:: /_static/images/en-us_image_0000002254868828.png
+.. |image3| image:: /_static/images/en-us_image_0000002289582157.png

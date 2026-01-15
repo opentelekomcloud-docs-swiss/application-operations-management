@@ -5,7 +5,7 @@
 Uninstalling the ICAgent
 ========================
 
-If the ICAgent on a server is uninstalled, server O&M will be affected, making Application Operations Management (AOM) functions unavailable. Exercise caution when performing this operation.
+If the ICAgent on a server is uninstalled, server O&M will be affected, making AOM functions unavailable. Exercise caution when performing this operation.
 
 You can uninstall the ICAgent using either of the following methods:
 
@@ -21,7 +21,7 @@ Uninstalling the ICAgent Through the AOM Console
 
 #. In the navigation pane, choose **Configuration Management** > **Agent Management**.
 
-#. Select **Other: user-defined nodes** from the drop-down list on the right of the page.
+#. Select **Other: custom hosts** from the drop-down list on the right of the page.
 
 #. Select one or more servers where the ICAgent is to be uninstalled, and click **Uninstall ICAgent**. In the **Uninstall ICAgent** dialog box, click **Yes**.
 

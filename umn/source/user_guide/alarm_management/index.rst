@@ -1,18 +1,20 @@
-:original_name: aom_02_0044.html
+:original_name: mon_01_0004.html
 
-.. _aom_02_0044:
+.. _mon_01_0004:
 
 Alarm Management
 ================
 
--  :ref:`Viewing Alarms <aom_02_0004>`
--  :ref:`Viewing Events <aom_02_0045>`
--  :ref:`Creating Alarm Rules <aom_02_0035>`
+-  :ref:`Alarm Rules <mon_01_0006>`
+-  :ref:`Viewing Alarms <mon_01_0011>`
+-  :ref:`Viewing Events <mon_01_0012>`
+-  :ref:`Alarm Action Rules <mon_01_0013>`
 
 .. toctree::
    :maxdepth: 1
    :hidden: 
 
+   alarm_rules/index
    viewing_alarms
    viewing_events
-   creating_alarm_rules
+   alarm_action_rules/index

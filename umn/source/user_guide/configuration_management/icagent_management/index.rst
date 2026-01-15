@@ -5,7 +5,7 @@
 ICAgent Management
 ==================
 
--  :ref:`Installing the ICAgent <aom_02_0012>`
+-  :ref:`Installing an ICAgent <aom_02_0012>`
 -  :ref:`Upgrading the ICAgent <aom_02_0013>`
 -  :ref:`Uninstalling the ICAgent <aom_02_0014>`
 
@@ -13,6 +13,6 @@ ICAgent Management
    :maxdepth: 1
    :hidden: 
 
-   installing_the_icagent
+   installing_an_icagent
    upgrading_the_icagent
    uninstalling_the_icagent
