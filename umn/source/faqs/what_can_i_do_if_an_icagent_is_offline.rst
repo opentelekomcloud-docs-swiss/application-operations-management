@@ -29,7 +29,7 @@ Solution
 
 #. .. _aom_04_1100__li089634131819:
 
-   After configuring the AK/SK, reinstall the ICAgent. For details, see :ref:`Installing the ICAgent <aom_02_0012>`. If the installation still fails, go to :ref:`4 <aom_04_1100__li77391656131917>`.
+   After configuring the AK/SK, reinstall the ICAgent. For details, see :ref:`Installing an ICAgent <aom_02_0012>`. If the installation still fails, go to :ref:`4 <aom_04_1100__li77391656131917>`.
 
 #. .. _aom_04_1100__li77391656131917:
 

@@ -1,44 +1,44 @@
-:original_name: aom_02_0045.html
+:original_name: mon_01_0012.html
 
-.. _aom_02_0045:
+.. _mon_01_0012:
 
 Viewing Events
 ==============
 
-Generally, events carry important information, informing you of the changes of AOM itself or an external service such as Cloud Container Engine (CCE). Such changes do not necessarily cause exceptions. Events do not need to be handled.
+Events generally carry some important information, informing you of the changes of AOM or an external service. Such changes do not necessarily cause exceptions. You can handle events as required. The **Events** tab page allows you to quickly search for events and monitor your system.
 
+Procedure
+---------
 
-Viewing Events
---------------
+#. In the navigation pane, choose **Alarm Management** > **Alarm List**.
 
-#. In the navigation pane, choose **Alarm Center** > **Event List**.
-
-   Events are displayed by time. The latest event is displayed at the topmost of the event list.
-
-#. View events on the **Event List** page.
+#. Click the **Events** tab to view the event information.
 
    a. Set a time range to view events. There are two methods to set a time range:
 
-      Method 1: Use a predefined time label, such as **Last 1 hour**, **Last 6 hours**, or **Last 1 day** in the upper right corner of the page. You can select a time range as required.
+      Method 1: Use the predefined time label, such as **Last hour** or **Last 6 hours**. You can select a time range as required.
 
-      Method 2: Specify the start time and end time in the upper right corner of the page to customize a time range. You can specify up to 30 days.
+      Method 2: Specify the start time and end time to customize a time range. You can specify 31 days at most.
 
-   b. Set filter criteria and click |image1| to view the events generated in the specified time range.
+   b. Set the interval for refreshing events. Click |image1| and select a value from the drop-down list as required, such as **Refresh manually** or **1 minute auto refresh**.
 
-      You can click **x** to clear filter criteria.
+   c. Set filter criteria and click |image2| to view the events generated in the period.
 
-#. Perform the operations listed in :ref:`Table 1 <aom_02_0045__table48312734713>` as required.
+#. Perform the operations listed in :ref:`Table 1 <mon_01_0012__en-us_topic_0000001214030676_table48312734713>` as required:
 
-   .. _aom_02_0045__table48312734713:
+   .. _mon_01_0012__en-us_topic_0000001214030676_table48312734713:
 
    .. table:: **Table 1** Operations
 
-      +--------------------------+---------------------------------------------------------------------------------------------------+
-      | Operation                | Method                                                                                            |
-      +==========================+===================================================================================================+
-      | Viewing event statistics | View event statistics that meet filter criteria within a specific time range through a bar graph. |
-      +--------------------------+---------------------------------------------------------------------------------------------------+
-      | Viewing event details    | Click an event name to view details and handling suggestions.                                     |
-      +--------------------------+---------------------------------------------------------------------------------------------------+
+      +--------------------------+------------------------------------------------------------------------------------------------------------------+
+      | Operation                | Description                                                                                                      |
+      +==========================+==================================================================================================================+
+      | Viewing event statistics | Click |image4|, and view event statistics that meet filter criteria within a specific time range on a bar graph. |
+      +--------------------------+------------------------------------------------------------------------------------------------------------------+
+      | Viewing event details    | Click an event name to view event details.                                                                       |
+      +--------------------------+------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000001448802761.png
+.. |image1| image:: /_static/images/en-us_image_0000002254811836.png
+.. |image2| image:: /_static/images/en-us_image_0000002254868784.png
+.. |image3| image:: /_static/images/en-us_image_0000002254868796.png
+.. |image4| image:: /_static/images/en-us_image_0000002254868796.png
