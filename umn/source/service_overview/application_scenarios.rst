@@ -19,7 +19,7 @@ AOM interconnects with application services, and collects O&M data of infrastruc
 -  Alarm notification: Multiple exception detection policies, alarm trigger modes, and APIs are provided.
 
 
-.. figure:: /_static/images/en-us_image_0000002289582009.png
+.. figure:: /_static/images/en-us_image_0000002515112653.png
    :alt: **Figure 1** Problem inspection and demarcation
 
    **Figure 1** Problem inspection and demarcation
@@ -38,7 +38,7 @@ AOM provides multi-dimensional O&M capabilities from the cloud level to the reso
 -  Resource running assurance: Hundreds of O&M metrics about resources such as containers, disks, and networks are monitored in real time, and clusters, VMs, applications, and containers are associated for analysis.
 
 
-.. figure:: /_static/images/en-us_image_0000002254868664.png
+.. figure:: /_static/images/en-us_image_0000002482792670.png
    :alt: **Figure 2** Multi-dimensional O&M
 
    **Figure 2** Multi-dimensional O&M

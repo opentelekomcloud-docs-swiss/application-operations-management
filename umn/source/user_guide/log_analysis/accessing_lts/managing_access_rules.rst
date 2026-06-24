@@ -18,6 +18,7 @@ Adding Access Rules
 
 To map the logs of CCE workloads from AOM to LTS, perform the following steps:
 
+#. On the menu bar, choose **Monitoring Center**.
 #. In the navigation pane, choose **Log Analysis** > **LTS Access**.
 #. Click **Add Access Rule**.
 #. Select an access type. **Access by Namespace**, **Access by Workload**, or **Automatic Mapping** are available.
@@ -91,4 +92,4 @@ Other Operations
 
 On the **Access LTS** page, click **Go to LTS Console** to go to the LTS console and create a log group and log stream for mapping.
 
-.. |image1| image:: /_static/images/en-us_image_0000002289582501.png
+.. |image1| image:: /_static/images/en-us_image_0000002482792956.png

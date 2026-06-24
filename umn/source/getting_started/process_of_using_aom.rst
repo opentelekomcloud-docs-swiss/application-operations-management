@@ -8,7 +8,7 @@ Process of Using AOM
 AOM is a one-stop, multi-dimensional O&M management platform for cloud applications. It monitors applications and related cloud resources in real time, analyzes application health status, and provides flexible alarm reporting and data visualization functions. It helps you detect faults in a timely manner and monitor running status of applications, services, and other resources in real time. This section describes how to get started with AOM. The following figure shows the process.
 
 
-.. figure:: /_static/images/en-us_image_0000002289469209.jpg
+.. figure:: /_static/images/en-us_image_0000002482913110.jpg
    :alt: **Figure 1** Process of using AOM
 
    **Figure 1** Process of using AOM

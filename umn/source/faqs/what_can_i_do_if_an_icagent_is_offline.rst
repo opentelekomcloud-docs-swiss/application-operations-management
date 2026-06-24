@@ -7,6 +7,8 @@ What Can I Do If an ICAgent Is Offline?
 
 After an ICAgent is installed, its status is offline.
 
+|image1|
+
 Problem Analysis
 ----------------
 
@@ -50,3 +52,5 @@ Solution
 
       -  If **404** is displayed, the port is connected. In this case, contact technical support.
       -  If the command output is not **404**, the port is not connected. Contact the network administrator to open the port and reinstall ICAgent. If the installation still fails, contact technical support.
+
+.. |image1| image:: /_static/images/en-us_image_0000002515112867.png

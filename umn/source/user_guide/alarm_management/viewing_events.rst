@@ -10,6 +10,8 @@ Events generally carry some important information, informing you of the changes 
 Procedure
 ---------
 
+#. On the menu bar, choose **Monitoring Center**.
+
 #. In the navigation pane, choose **Alarm Management** > **Alarm List**.
 
 #. Click the **Events** tab to view the event information.
@@ -20,7 +22,7 @@ Procedure
 
       Method 2: Specify the start time and end time to customize a time range. You can specify 31 days at most.
 
-   b. Set the interval for refreshing events. Click |image1| and select a value from the drop-down list as required, such as **Refresh manually** or **1 minute auto refresh**.
+   b. Set the event refresh interval. Click |image1| and select a value from the drop-down list, such as **Refresh manually** or **1 minute auto refresh**.
 
    c. Set filter criteria and click |image2| to view the events generated in the period.
 
@@ -35,10 +37,10 @@ Procedure
       +==========================+==================================================================================================================+
       | Viewing event statistics | Click |image4|, and view event statistics that meet filter criteria within a specific time range on a bar graph. |
       +--------------------------+------------------------------------------------------------------------------------------------------------------+
-      | Viewing event details    | Click an event name to view event details.                                                                       |
+      | Viewing event details    | Click an event name to view event details and handling suggestions.                                              |
       +--------------------------+------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000002254811836.png
-.. |image2| image:: /_static/images/en-us_image_0000002254868784.png
-.. |image3| image:: /_static/images/en-us_image_0000002254868796.png
-.. |image4| image:: /_static/images/en-us_image_0000002254868796.png
+.. |image1| image:: /_static/images/en-us_image_0000002514992907.png
+.. |image2| image:: /_static/images/en-us_image_0000002515112911.png
+.. |image3| image:: /_static/images/en-us_image_0000002514992909.png
+.. |image4| image:: /_static/images/en-us_image_0000002514992909.png

@@ -10,7 +10,11 @@ The **Metric Browsing** page displays metric data of each resource. You can moni
 Monitoring Metrics
 ------------------
 
+#. On the menu bar, choose **Monitoring Center**.
+
 #. In the navigation pane, choose **Metric Browsing**.
+
+#. Select a target Prometheus instance from the drop-down list.
 
 #. Choose **Metric Sources** > **Metric List**.
 
@@ -18,11 +22,11 @@ Monitoring Metrics
 
    .. note::
 
-      -  When **All metrics** is selected, you can only enter English keywords to search and only English content is displayed.
-      -  **Scope**: Metric monitoring scope. The scope is in the key-value pair format. Directly select an option from the drop-down list or use **AND**, **OR**, and **NOT** to specify scopes for metrics.
+      -  When **All metrics** is selected, enter keywords to search for metrics.
+      -  **Scope**: Metric monitoring scope. The scope is in the key-value pair format. Directly select an option from the drop-down list or use **AND**, **NOT**, and **OR** to specify scopes for metrics.
       -  **Group Condition**: Aggregate metric data by the specified field and calculate the aggregation result. Options: **Not grouped**, **avg by**, **max by**, **min by**, and **sum by**. For example, **avg by clusterName** indicates that metrics are grouped by cluster name, and the average value of the grouped metrics is calculated and displayed in the graph.
 
-#. Click **Metric Query** to add up to 12 metrics.
+#. Click **Add Metric** to add up to 12 metrics.
 
    .. note::
 
@@ -31,11 +35,11 @@ Monitoring Metrics
       a. Adjust the metric query mode to query metric data of a specified resource.
       b. Select a top N graph.
 
-#. Set metric parameters by referring to :ref:`Table 1 <mon_01_0026__en-us_topic_0000001213710710_d0e3947>`, view the metric graph in the right pane, and analyze metric data from multiple perspectives.
+#. Set metric parameters by referring to :ref:`Table 1 <mon_01_0026__en-us_topic_0000001213710710_d0e3947>`, view the metric graph in the upper part of the page, and analyze metric data from multiple perspectives.
 
    .. _mon_01_0026__en-us_topic_0000001213710710_d0e3947:
 
-   .. table:: **Table 1** Metric parameter description
+   .. table:: **Table 1** Metric parameters
 
       +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Parameter                         | Description                                                                                                                                                                                         |
@@ -44,7 +48,7 @@ Monitoring Metrics
       |                                   |                                                                                                                                                                                                     |
       |                                   | .. note::                                                                                                                                                                                           |
       |                                   |                                                                                                                                                                                                     |
-      |                                   |    **Samples** indicates the number of data points.                                                                                                                                                 |
+      |                                   |    **Samples**: the number of data points.                                                                                                                                                          |
       +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Statistical Period                | Interval at which metric data is collected.                                                                                                                                                         |
       |                                   |                                                                                                                                                                                                     |
@@ -54,17 +58,17 @@ Monitoring Metrics
       +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
       | Refresh Frequency                 | Interval at which the metric data is refreshed. Options: **Refresh manually**, **30 seconds auto refresh**, **1 minute auto refresh**, and **5 minutes auto refresh**.                              |
       +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Graph Type                        | Options: line, digit, top N, table, and bar graphs                                                                                                                                                  |
+      | Graph Type                        | Options: line, digit, top N, table, digital line, and bar graphs                                                                                                                                    |
       +-----------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-6. (Optional) Choose **Metric Sources** > **Graph Settings** to modify the display settings (such as X/Y axis titles and values) of the metric graph. For details, see :ref:`Metric Data Graphs (Line/Digit/Top N/Table/Bar Graphs) <mon_01_0048__en-us_topic_0000001264423926_section781281957>`.
+8. (Optional) Choose **Metric Sources** > **Graph Settings** to modify the display settings (such as X/Y axis titles and values) of the metric graph. For details, see :ref:`Metric Data Graphs (Line/Digit/Top N/Table/Bar/Digital Line Graphs) <mon_01_0048__en-us_topic_0000001264423926_section781281957>`.
 
 More Operations
 ---------------
 
-You can also perform the operations listed in :ref:`Table 2 <mon_01_0026__en-us_topic_0000001213710710_table1679219139498>`.
+You can also perform the operations listed in :ref:`Table 2 <mon_01_0026__en-us_topic_0000001213710710_table18762012174619>`.
 
-.. _mon_01_0026__en-us_topic_0000001213710710_table1679219139498:
+.. _mon_01_0026__en-us_topic_0000001213710710_table18762012174619:
 
 .. table:: **Table 2** Related operations
 
@@ -73,20 +77,23 @@ You can also perform the operations listed in :ref:`Table 2 <mon_01_0026__en-us_
    +======================================+======================================================================================================================================================================================================================================+
    | Hiding metric data                   | After selecting a metric, click |image1| next to the metric to hide the metric data in the current graph. To show the metric data again, click |image2| next to the metric. |image3| or |image4| indicate the status of metric data. |
    +--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Expanding the metric list            | Select a metric and click |image5| in the **Operation** column to expand the metric list.                                                                                                                                            |
+   | Adding an alarm rule for a metric    | After selecting a metric, click |image5| in the upper right corner of the metric list to add an alarm rule for the metric.                                                                                                           |
+   |                                      |                                                                                                                                                                                                                                      |
+   |                                      | .. note::                                                                                                                                                                                                                            |
+   |                                      |                                                                                                                                                                                                                                      |
+   |                                      |    When you are redirected to the **Create Alarm Rule** page, your settings made on the **Metric Browsing** page will be automatically applied to **Alarm Rule Settings** and **Alarm Rule Details** areas.                          |
    +--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Adding an alarm rule for a metric    | After selecting a metric, click |image6| in the **Operation** column to create an alarm rule for the metric.                                                                                                                         |
+   | Deleting a metric                    | Click |image6| next to the target metric.                                                                                                                                                                                            |
    +--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Deleting a metric                    | -  To delete a metric, click |image7| in the **Operation** column.                                                                                                                                                                   |
-   |                                      | -  To delete one or more metrics, select them and click **Batch Delete** above the metric list.                                                                                                                                      |
+   | Adding a metric graph to a dashboard | After selecting a metric, click |image7| in the upper right corner of the metric list.                                                                                                                                               |
    +--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Adding a metric graph to a dashboard | Select one or more metrics and click **Add to Dashboard** above the metric list.                                                                                                                                                     |
+   | Viewing early metrics                | If there was metric data generated within 30 days before the version upgrade, click **View Early Metric** in the upper right corner of the **Metric Browsing** page to view and analyze the historical data and graphs.              |
    +--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000002289582321.png
-.. |image2| image:: /_static/images/en-us_image_0000002254812040.png
-.. |image3| image:: /_static/images/en-us_image_0000002289469281.png
-.. |image4| image:: /_static/images/en-us_image_0000002254869028.png
-.. |image5| image:: /_static/images/en-us_image_0000002289582369.png
-.. |image6| image:: /_static/images/en-us_image_0000002289582349.png
-.. |image7| image:: /_static/images/en-us_image_0000002254812056.png
+.. |image1| image:: /_static/images/en-us_image_0000002482912998.png
+.. |image2| image:: /_static/images/en-us_image_0000002515112985.png
+.. |image3| image:: /_static/images/en-us_image_0000002514992981.png
+.. |image4| image:: /_static/images/en-us_image_0000002514992987.png
+.. |image5| image:: /_static/images/en-us_image_0000002482793022.png
+.. |image6| image:: /_static/images/en-us_image_0000002514992989.png
+.. |image7| image:: /_static/images/en-us_image_0000002482793016.png

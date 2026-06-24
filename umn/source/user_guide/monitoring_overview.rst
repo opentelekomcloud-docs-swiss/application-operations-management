@@ -11,7 +11,7 @@ Infrastructure Monitoring
 -------------------------
 
 
-.. figure:: /_static/images/en-us_image_0000002289469141.png
+.. figure:: /_static/images/en-us_image_0000002482912964.png
    :alt: **Figure 1** Infrastructure monitoring
 
    **Figure 1** Infrastructure monitoring
@@ -26,7 +26,7 @@ Application Monitoring
 ----------------------
 
 
-.. figure:: /_static/images/en-us_image_0000002254811960.png
+.. figure:: /_static/images/en-us_image_0000002514992953.png
    :alt: **Figure 2** Application monitoring
 
    **Figure 2** Application monitoring
@@ -43,7 +43,7 @@ Container Status
 ----------------
 
 
-.. figure:: /_static/images/en-us_image_0000002254868900.png
+.. figure:: /_static/images/en-us_image_0000002514992977.png
    :alt: **Figure 3** Container status
 
    **Figure 3** Container status
@@ -57,7 +57,7 @@ Alarm Statistics
 ----------------
 
 
-.. figure:: /_static/images/en-us_image_0000002289582257.png
+.. figure:: /_static/images/en-us_image_0000002515112961.png
    :alt: **Figure 4** Alarm statistics
 
    **Figure 4** Alarm statistics
@@ -68,7 +68,7 @@ Component Monitoring (CPU and Memory)
 -------------------------------------
 
 
-.. figure:: /_static/images/en-us_image_0000002289469157.png
+.. figure:: /_static/images/en-us_image_0000002514992965.png
    :alt: **Figure 5** Component monitoring (CPU and memory)
 
    **Figure 5** Component monitoring (CPU and memory)
@@ -84,7 +84,7 @@ Host Monitoring (Disk)
 ----------------------
 
 
-.. figure:: /_static/images/en-us_image_0000002289469189.png
+.. figure:: /_static/images/en-us_image_0000002514992975.png
    :alt: **Figure 6** Host monitoring (disk)
 
    **Figure 6** Host monitoring (disk)
@@ -99,7 +99,7 @@ Cluster Monitoring (CPU and Memory)
 -----------------------------------
 
 
-.. figure:: /_static/images/en-us_image_0000002289582273.png
+.. figure:: /_static/images/en-us_image_0000002482792988.png
    :alt: **Figure 7** Cluster monitoring (CPU and memory)
 
    **Figure 7** Cluster monitoring (CPU and memory)
@@ -114,7 +114,7 @@ Host Monitoring (CPU and Memory)
 --------------------------------
 
 
-.. figure:: /_static/images/en-us_image_0000002289582221.png
+.. figure:: /_static/images/en-us_image_0000002482912982.png
    :alt: **Figure 8** Host monitoring (CPU and memory)
 
    **Figure 8** Host monitoring (CPU and memory)
@@ -129,7 +129,7 @@ Container Instance Monitoring (CPU and Memory)
 ----------------------------------------------
 
 
-.. figure:: /_static/images/en-us_image_0000002289469129.png
+.. figure:: /_static/images/en-us_image_0000002514992973.png
    :alt: **Figure 9** Container instance monitoring (CPU and memory)
 
    **Figure 9** Container instance monitoring (CPU and memory)
@@ -145,7 +145,7 @@ Host Monitoring (Network)
 -------------------------
 
 
-.. figure:: /_static/images/en-us_image_0000002289582217.png
+.. figure:: /_static/images/en-us_image_0000002515112989.png
    :alt: **Figure 10** Host monitoring (network)
 
    **Figure 10** Host monitoring (network)
@@ -160,7 +160,7 @@ Cluster Monitoring (Disk)
 -------------------------
 
 
-.. figure:: /_static/images/en-us_image_0000002289469177.png
+.. figure:: /_static/images/en-us_image_0000002515112973.png
    :alt: **Figure 11** Cluster monitoring (disk)
 
    **Figure 11** Cluster monitoring (disk)
@@ -180,17 +180,17 @@ You can also perform the operations described in :ref:`Table 1 <aom_02_0041__tab
 
 .. table:: **Table 1** Related operations
 
-   +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Operation                   | Description                                                                                                                                                                                                                     |
-   +=============================+=================================================================================================================================================================================================================================+
-   | Adding a card to favorites  | To hide a card, click |image3| in the upper right corner of the card and choose **Add to Favorites**. After a card is added to favorites, it is hidden from the **O&M** page. To view the card later, obtain it from favorites. |
-   +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Enlarging a graph           | Click |image4| in the upper right corner of the metric graph.                                                                                                                                                                   |
-   +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-   | Drilling down magenta texts | Click the magenta texts, such as **Host**, **Application**, or **Component** to drill down to the details page.                                                                                                                 |
-   +-----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   +----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Operation                  | Description                                                                                                                                                                                                                     |
+   +============================+=================================================================================================================================================================================================================================+
+   | Adding a card to favorites | To hide a card, click |image3| in the upper right corner of the card and choose **Add to Favorites**. After a card is added to favorites, it is hidden from the **O&M** page. To view the card later, obtain it from favorites. |
+   +----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Enlarging a graph          | Click |image4| in the upper right corner of the metric graph.                                                                                                                                                                   |
+   +----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+   | Drilling down blue texts   | Click the blue texts, such as **Host**, **Application**, or **Component** to drill down to the details page.                                                                                                                    |
+   +----------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000002254811956.png
-.. |image2| image:: /_static/images/en-us_image_0000002289582261.png
-.. |image3| image:: /_static/images/en-us_image_0000002254811956.png
-.. |image4| image:: /_static/images/en-us_image_0000002289582261.png
+.. |image1| image:: /_static/images/en-us_image_0000002482793000.png
+.. |image2| image:: /_static/images/en-us_image_0000002482912962.png
+.. |image3| image:: /_static/images/en-us_image_0000002482793000.png
+.. |image4| image:: /_static/images/en-us_image_0000002482912962.png

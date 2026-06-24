@@ -23,5 +23,5 @@ For a :ref:`dashboard <mon_01_0003>`, the relationship between the time range an
    Latest 6 hours  1 minute, 5 minutes, 15 minutes, or 1 hour
    Last day
    Last week       1 hour
-   Custom
+   Custom          1 minute, 5 minutes, 15 minutes, or 1 hour
    =============== ==========================================

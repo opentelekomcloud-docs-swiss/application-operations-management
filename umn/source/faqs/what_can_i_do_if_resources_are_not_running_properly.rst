@@ -28,7 +28,7 @@ If the ICAgent fails to collect resource metrics, the resource status is **Silen
 
 -  **Cause 1: The ICAgent is abnormal.**
 
-   Suggestion: In the navigation pane, choose **Configuration Management** > **Agent Management**. On the page that is displayed, check the ICAgent status. If the status is not **Running**, the ICAgent is uninstalled or abnormal. For details on how to solve the problem, see :ref:`Table 1 <aom_02_1012__table13223726125116>`.
+   Suggestion: On the menu bar, choose **Monitoring Center**. In the navigation pane, choose **Configuration Management** > **Agent Management**. Check the ICAgent status in the **ICAgent Status** column. If the status is not **Running**, the ICAgent is not installed or does not work. For details about how to rectify the fault, see :ref:`Table 1 <aom_02_1012__table13223726125116>`.
 
    .. _aom_02_1012__table13223726125116:
 

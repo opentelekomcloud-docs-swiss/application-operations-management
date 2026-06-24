@@ -7,11 +7,11 @@ Adding Log Dumps
 
 AOM dumps logs to Object Storage Service (OBS) buckets for long-term storage. To store logs for a long period of time, add log dumps.
 
-AOM offers both periodic and one-off dump modes. You can choose one of them as required.
+AOM offers periodic and one-off dump modes. You can choose one of them as required.
 
 -  **Periodic dump**: Current logs are dumped in real time into an OBS bucket and 1-day logs are divided based on the dump cycle.
 
-   To periodically store logs for a long period, add periodic dumps. For details, see :ref:`Adding Periodic Dumps <aom_02_0080__en-us_topic_0169698290_section246131702711>`.
+   To store logs for a long time, add periodic dumps. For details, see :ref:`Adding Periodic Dumps <aom_02_0080__en-us_topic_0169698290_section246131702711>`.
 
 -  **One-off dump**: Historical logs are dumped to a log file of an OBS bucket at a time.
 
@@ -19,7 +19,8 @@ AOM offers both periodic and one-off dump modes. You can choose one of them as r
 
 .. note::
 
-   To add a log dump, you must have OBS administrator permissions in addition to AOM and LTS permissions.
+   -  To add a log dump, you must have OBS administrator permissions in addition to AOM and LTS permissions.
+   -  If you need to dump logs to OBS buckets in real time for long-term storage, use the log dump function of LTS.
 
 .. _aom_02_0080__en-us_topic_0169698290_section246131702711:
 
@@ -27,6 +28,8 @@ Adding Periodic Dumps
 ---------------------
 
 For example, when you need to dump the logs of the **als0320a** component into corresponding files in the **/home/Periodical Dump** directory of the **obs-store-test** OBS bucket in real time, and the dump cycle is 3 hours, do as follows:
+
+#. On the menu bar, choose **Monitoring Center**.
 
 #. In the navigation pane, choose **Log Analysis** > **Log Dumps**.
 
@@ -64,7 +67,7 @@ For example, when you need to dump the logs of the **als0320a** component into c
 
    .. note::
 
-      Periodic dump is a near-real-time dump but has latency in minutes. The latency varies depending on log quantity and size. Details are as follows:
+      A periodic dump is a near-real-time dump but has latency in minutes. The latency varies depending on log quantity and size. Details are as follows:
 
       -  If the number of logs generated within 5 minutes exceeds 1000 or the log size exceeds 2 MB, the logs are dumped in real time.
       -  If the number of logs generated within 5 minutes is less than 1000 or the log size is less than 2 MB, the logs are dumped every 5 minutes.
@@ -102,6 +105,8 @@ Adding One-Off Dumps
 
 For example, to dump the logs that contain the **warn** keyword in the last 30 minutes of **als0320a** to the **/home/One-off Dump** directory of the **obs-store-test** OBS bucket, do as follows:
 
+#. On the menu bar, choose **Monitoring Center**.
+
 #. In the navigation pane, choose **Log Analysis** > **Log Dumps**.
 
 #. Click **Add Log Dump** in the upper right corner of the page. Then, set parameters according to :ref:`Table 3 <aom_02_0080__en-us_topic_0169698290_table93147547513>` and click **OK**.
@@ -110,31 +115,32 @@ For example, to dump the logs that contain the **warn** keyword in the last 30 m
 
    .. table:: **Table 3** One-off dump parameters
 
-      +-----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-      | Parameter             | Description                                                                                                                                              | Example                                                                                                                 |
-      +=======================+==========================================================================================================================================================+=========================================================================================================================+
-      | Dump Mode             | Select **One-off dump**.                                                                                                                                 | One-off dump                                                                                                            |
-      +-----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-      | Filter Criteria       | Logs can be filtered by multiple criteria such as log collection time, cluster, or namespace, so that you can dump the logs that meet specific criteria. | Set the log collection time to **Last 30 minutes**, select the **als0320a** component, and set the keyword to **warn**. |
-      +-----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-      | Log Group             | Logs can be categorized into logical groups, so that you can dump them based on groups.                                                                  | log-group2                                                                                                              |
-      |                       |                                                                                                                                                          |                                                                                                                         |
-      |                       | .. note::                                                                                                                                                |                                                                                                                         |
-      |                       |                                                                                                                                                          |                                                                                                                         |
-      |                       |    After a dump task is deleted, log groups will also be deleted.                                                                                        |                                                                                                                         |
-      +-----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-      | Target OBS Bucket     | OBS bucket that stores logs.                                                                                                                             | obs-store-test                                                                                                          |
-      |                       |                                                                                                                                                          |                                                                                                                         |
-      |                       | .. note::                                                                                                                                                |                                                                                                                         |
-      |                       |                                                                                                                                                          |                                                                                                                         |
-      |                       |    If no OBS bucket is available, click **View OBS** to create a bucket on the OBS console.                                                              |                                                                                                                         |
-      +-----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
-      | OBS Bucket Directory  | OBS bucket directory for storing logs.                                                                                                                   | /home/One-off Dump                                                                                                      |
-      |                       |                                                                                                                                                          |                                                                                                                         |
-      |                       | .. note::                                                                                                                                                |                                                                                                                         |
-      |                       |                                                                                                                                                          |                                                                                                                         |
-      |                       |    By default, logs are stored in the root directory of the OBS bucket.                                                                                  |                                                                                                                         |
-      +-----------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+      | Parameter             | Description                                                                                                                                                            | Example                                                                                                                 |
+      +=======================+========================================================================================================================================================================+=========================================================================================================================+
+      | Dump Mode             | Select **One-off dump**.                                                                                                                                               | One-off dump                                                                                                            |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+      | Filter Criteria       | Logs can be filtered by multiple criteria such as log collection time, cluster, or namespace, so that you can dump the logs that meet specific criteria.               | Set the log collection time to **Last 30 minutes**, select the **als0320a** component, and set the keyword to **warn**. |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+      | Log Group             | Logs can be categorized into logical groups, so that you can dump them based on groups.                                                                                | log-group2                                                                                                              |
+      |                       |                                                                                                                                                                        |                                                                                                                         |
+      |                       | .. note::                                                                                                                                                              |                                                                                                                         |
+      |                       |                                                                                                                                                                        |                                                                                                                         |
+      |                       |    After a dump task is deleted, log groups will also be deleted.                                                                                                      |                                                                                                                         |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+      | Target OBS Bucket     | OBS bucket that stores logs.                                                                                                                                           | obs-store-test                                                                                                          |
+      |                       |                                                                                                                                                                        |                                                                                                                         |
+      |                       | .. note::                                                                                                                                                              |                                                                                                                         |
+      |                       |                                                                                                                                                                        |                                                                                                                         |
+      |                       |    -  If no OBS bucket is available, click **View OBS** to create a bucket on the OBS console.                                                                         |                                                                                                                         |
+      |                       |    -  If you select an unauthorized OBS bucket, AOM will take 15 minutes to authorize the ACL for the bucket. If your configuration fails, try again 15 minutes later. |                                                                                                                         |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
+      | OBS Bucket Directory  | OBS bucket directory for storing logs.                                                                                                                                 | /home/One-off Dump                                                                                                      |
+      |                       |                                                                                                                                                                        |                                                                                                                         |
+      |                       | .. note::                                                                                                                                                              |                                                                                                                         |
+      |                       |                                                                                                                                                                        |                                                                                                                         |
+      |                       |    By default, logs are stored in the root directory of the OBS bucket.                                                                                                |                                                                                                                         |
+      +-----------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------+
 
    After the one-off dump is added and the dump status changes to **Dumped**, the historical logs that meet criteria are dumped into the same log file of the OBS bucket at a time.
 
