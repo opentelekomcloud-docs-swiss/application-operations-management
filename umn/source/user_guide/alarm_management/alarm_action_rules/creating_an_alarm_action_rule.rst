@@ -5,14 +5,13 @@
 Creating an Alarm Action Rule
 =============================
 
-You can create an alarm action rule and associate it with an SMN topic and a message template. When the resource or metric data meets the alarm condition, the system sends an alarm notification based on the associated SMN topic and message template.
+You can create an alarm action rule and associate it with an SMN topic and a message template. If the resource or metric data meets the alarm condition, the system sends an alarm notification based on the associated SMN topic and message template.
 
 Prerequisites
 -------------
 
 -  A topic has been created.
 -  A topic policy has been set.
--  **APM** has been selected for **Services that can publish messages to this topic**. If **APM** is not selected, notifications cannot be sent.
 -  A subscriber, that is, an email or SMS message recipient has been added for the topic.
 
 Precautions
@@ -22,6 +21,8 @@ You can create a maximum of 1000 alarm action rules. If this number has been rea
 
 Procedure
 ---------
+
+#. On the menu bar, choose **Monitoring Center**.
 
 #. In the navigation pane, choose **Alarm Management** > **Alarm Action Rules**.
 
@@ -33,25 +34,25 @@ Procedure
 
    .. table:: **Table 1** Parameters of an alarm action rule
 
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Parameter                         | Description                                                                                                                                                                   |
-      +===================================+===============================================================================================================================================================================+
-      | Rule Name                         | Name of an action rule. Enter up to 100 characters and do not start or end with an underscore (_). Only digits, letters, and underscores are allowed.                         |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Description                       | Description of the action rule. Enter up to 1024 characters.                                                                                                                  |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Action Type                       | Type of action that is associated with the SMN topic and message template. Select your desired action from the drop-down list. Currently, only **Notification** is supported. |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Topic                             | SMN topic. Select your desired topic from the drop-down list.                                                                                                                 |
-      |                                   |                                                                                                                                                                               |
-      |                                   | If there is no topic you want to select, create one on the SMN console.                                                                                                       |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Message Template                  | Notification message template. Select your desired template from the drop-down list.                                                                                          |
-      |                                   |                                                                                                                                                                               |
-      |                                   | If there is no message template you want to select, create one by referring to :ref:`Creating a Message Template <mon_01_0016>`.                                              |
-      +-----------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Parameter                         | Description                                                                                                                                                   |
+      +===================================+===============================================================================================================================================================+
+      | Rule Name                         | Name of an action rule. Enter up to 100 characters and do not start or end with an underscore (_). Only digits, letters, and underscores are allowed.         |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Description                       | Description of the action rule. Enter up to 1024 characters.                                                                                                  |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Action Type                       | Type of action that is associated with the SMN topic and message template. Select one from the drop-down list. Currently, only **Notification** is supported. |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Topic                             | SMN topic. Select your desired topic from the drop-down list.                                                                                                 |
+      |                                   |                                                                                                                                                               |
+      |                                   | If there is no topic you want to select, create one on the SMN console.                                                                                       |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Message Template                  | Notification message template. Select your desired template from the drop-down list.                                                                          |
+      |                                   |                                                                                                                                                               |
+      |                                   | If there is no message template you want to select, create one by referring to :ref:`Creating a Message Template <mon_01_0016>`.                              |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-4. Click **OK**.
+5. Click **OK**.
 
 More Operations
 ---------------
@@ -77,4 +78,4 @@ After an alarm action rule is created, you can perform operations described in :
    | Searching for an alarm action rule | Enter a rule name in the search box in the upper right corner and click |image1|.                                                                         |
    +------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000002289582401.png
+.. |image1| image:: /_static/images/en-us_image_0000002515112829.png

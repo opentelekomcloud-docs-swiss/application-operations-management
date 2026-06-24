@@ -26,9 +26,6 @@ Procedure
 
    Obtain the AK and SK from the **credentials** file.
 
-   -  **Access Key Id** is the AK.
-   -  **Secret Access Key** is the SK.
-
    .. note::
 
       Keep the AK/SK secure.

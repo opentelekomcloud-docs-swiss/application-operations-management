@@ -5,7 +5,7 @@
 Host Monitoring
 ===============
 
-Hosts include Elastic Cloud Servers (ECSs). AOM monitors the hosts created during Cloud Container Engine (CCE) or ServiceStage cluster creation and the hosts that are directly created. Ensure that the directly created hosts meet operating system (OS) and version requirements and install the ICAgent on these hosts according to :ref:`Installing an ICAgent <aom_02_0012>`. Otherwise, these hosts cannot be monitored by AOM. In addition, the hosts support both IPv4 and IPv6 addresses.
+Hosts include Elastic Cloud Servers (ECSs). AOM monitors the hosts created during Cloud Container Engine (CCE) cluster creation and the hosts that are directly created. Ensure that the directly created hosts meet operating system (OS) and version requirements and install the ICAgent on these hosts according to :ref:`Installing an ICAgent <aom_02_0012>`. Otherwise, these hosts cannot be monitored by AOM. In addition, the hosts support both IPv4 and IPv6 addresses.
 
 AOM monitors the resource usage and health status of hosts, common system devices such as disks and file systems of hosts, and service processes or instances running on hosts.
 
@@ -21,15 +21,16 @@ Precautions
 
 -  A maximum of five tags can be added to a host, and each tag must be unique.
 -  The same tag can be added to different hosts.
--  The host status can be **Normal**, **Abnormal**, **Warning**, **Silent**, or **Deleted**. The running status of a host is displayed as **Abnormal** when the host is faulty due to network failures, and power off or shut down of the host, or when the host generates a threshold alarm. For details about other statuses, see :ref:`What Can I Do If Resources Are Not Running Properly <aom_02_1012>`.
+-  The host status can be **Normal**, **Abnormal**, **Warning**, **Silent**, or **Deleted**. The running status of a host is displayed as **Abnormal** when the host is faulty due to network failures, and power off or shut down of the host, or when the host generates a threshold alarm. For more information, see :ref:`What Can I Do If Resources Are Not Running Properly? <aom_02_1012>`.
 
 Procedure
 ---------
 
+#. On the menu bar, choose **Monitoring Center**.
 #. In the navigation pane, choose **Infrastructure Monitoring** > **Host Monitoring**.
 
    -  To view desired hosts, set filter criteria (such as the running status, host type, host name, and IP address) above the host list.
-   -  You can select or deselect **Hide master host** as required. By default, master hosts are hidden.
+   -  You can enable or disable **Hide master host**. By default, master hosts are hidden.
    -  Click |image1| next to **Hide master host** to synchronize host information.
    -  In the upper right corner of the page, set host filter criteria.
 
@@ -37,11 +38,11 @@ Procedure
 
          Method 1: Use the predefined time label, such as **Last 30 minutes**, **Last hour**, **Last 6 hours**, **Last day**, or **Last week**. Select one as required.
 
-         Method 2: Specify the start time and end time (max. 31 days).
+         Method 2: Specify the start time and end time (max. 15 days).
 
       b. Set the interval for refreshing information. Click |image2| and select a value from the drop-down list as required, such as **Refresh manually**, **30 seconds auto refresh**, **1 minute auto refresh**, or **5 minutes auto refresh**.
 
-      c. Click |image3| in the upper right corner and select or deselect the columns to display.
+      c. Click |image3| in the upper right corner and select or deselect **the columns to display**.
 
 #. Perform the following operations as required:
 
@@ -83,12 +84,12 @@ Procedure
    -  On the **NIC** tab page, view the basic information about the NICs of the host. Click a NIC to monitor its metrics on the **Monitoring View** page.
    -  On the **GPU** tab page, view the basic information about the GPUs of the host. Click a GPU to monitor its metrics on the **Monitoring View** page.
 
-.. |image1| image:: /_static/images/en-us_image_0000002289582433.png
-.. |image2| image:: /_static/images/en-us_image_0000002254869088.png
-.. |image3| image:: /_static/images/en-us_image_0000002254812144.png
-.. |image4| image:: /_static/images/en-us_image_0000002289582425.png
-.. |image5| image:: /_static/images/en-us_image_0000002254869096.png
-.. |image6| image:: /_static/images/en-us_image_0000002254812136.png
-.. |image7| image:: /_static/images/en-us_image_0000002289469349.png
-.. |image8| image:: /_static/images/en-us_image_0000002289469357.png
-.. |image9| image:: /_static/images/en-us_image_0000002254812132.png
+.. |image1| image:: /_static/images/en-us_image_0000002482912812.png
+.. |image2| image:: /_static/images/en-us_image_0000002482912820.png
+.. |image3| image:: /_static/images/en-us_image_0000002515112821.png
+.. |image4| image:: /_static/images/en-us_image_0000002515112825.png
+.. |image5| image:: /_static/images/en-us_image_0000002482912814.png
+.. |image6| image:: /_static/images/en-us_image_0000002515112827.png
+.. |image7| image:: /_static/images/en-us_image_0000002515112819.png
+.. |image8| image:: /_static/images/en-us_image_0000002482912816.png
+.. |image9| image:: /_static/images/en-us_image_0000002515112815.png

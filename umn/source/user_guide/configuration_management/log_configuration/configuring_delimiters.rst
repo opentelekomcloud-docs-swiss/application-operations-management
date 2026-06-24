@@ -21,6 +21,8 @@ Delimiters are applicable only to the logs generated after the delimiters are co
 Procedure
 ---------
 
+#. On the menu bar, choose **Monitoring Center**.
+
 #. In the navigation pane, choose **Configuration Management** > **Log Configuration**, and click the **Delimiter Configuration** tab.
 
 #. Configure delimiters.
@@ -30,11 +32,17 @@ Procedure
    -  Custom delimiters: Click |image1|, enter a delimiter in the text box, and click |image2|.
    -  Use ASCII code: Click **Add Special Delimiters**, enter the ASCII value according to :ref:`ASCII Comparison Table <aom_02_0082__section15661144724914>`, and click |image3|.
 
-3. Preview the log content.
+4. Preview the log content.
 
    Enter the log content to preview in the text box and click **Preview**.
 
-4. Confirm the configuration and click **OK**.
+
+   .. figure:: /_static/images/en-us_image_0000002515375961.png
+      :alt: **Figure 1** Previewing logs
+
+      **Figure 1** Previewing logs
+
+5. Confirm the configuration and click **OK**.
 
    .. note::
 
@@ -119,6 +127,6 @@ ASCII Comparison Table
    | 31          | US (Unit separator)             | 63          | ?                 | 95          | \_                | 127         | DEL (Delete)      |
    +-------------+---------------------------------+-------------+-------------------+-------------+-------------------+-------------+-------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000002254811868.png
-.. |image2| image:: /_static/images/en-us_image_0000002254868828.png
-.. |image3| image:: /_static/images/en-us_image_0000002289582157.png
+.. |image1| image:: /_static/images/en-us_image_0000002482912842.png
+.. |image2| image:: /_static/images/en-us_image_0000002482912840.png
+.. |image3| image:: /_static/images/en-us_image_0000002514992843.png

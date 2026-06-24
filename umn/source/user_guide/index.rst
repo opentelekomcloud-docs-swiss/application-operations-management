@@ -6,6 +6,7 @@ User Guide
 ==========
 
 -  :ref:`Monitoring Overview <aom_02_0041>`
+-  :ref:`Access Center <aom_02_0042>`
 -  :ref:`Dashboard <mon_01_0040>`
 -  :ref:`Alarm Management <mon_01_0004>`
 -  :ref:`Container Insights <mon_01_0023>`
@@ -14,7 +15,8 @@ User Guide
 -  :ref:`Prometheus Monitoring <mon_01_0059>`
 -  :ref:`Log Analysis <aom_02_0054>`
 -  :ref:`Configuration Management <aom_02_0068>`
--  :ref:`Permissions Management <aom_02_0088>`
+-  :ref:`Global Settings <en-us_topic_0000002515298935>`
+-  :ref:`Granting Permissions Using IAM <aom_03_0006>`
 -  :ref:`Remarks <mon_01_0053>`
 
 .. toctree::
@@ -22,13 +24,15 @@ User Guide
    :hidden: 
 
    monitoring_overview
+   access_center/index
    dashboard/index
    alarm_management/index
    container_insights/index
    metric_browsing
    infrastructure_monitoring/index
-   prometheus_monitoring
+   prometheus_monitoring/index
    log_analysis/index
    configuration_management/index
-   permissions_management/index
+   global_settings/index
+   granting_permissions_using_iam/index
    remarks/index

@@ -11,7 +11,7 @@ Challenges
 With the popularization of container technologies, lots of enterprises develop applications using microservice frameworks. Because the number of cloud services increases, enterprises gradually turn to cloud O&M. However, they face the following O&M challenges:
 
 
-.. figure:: /_static/images/en-us_image_0000002254811708.png
+.. figure:: /_static/images/en-us_image_0000002482792684.png
    :alt: **Figure 1** Existing O&M issues
 
    **Figure 1** Existing O&M issues
@@ -23,7 +23,7 @@ Introduction to AOM
 -------------------
 
 
-.. figure:: /_static/images/en-us_image_0000002289581997.png
+.. figure:: /_static/images/en-us_image_0000002514992657.png
    :alt: **Figure 2** One-stop O&M platform
 
    **Figure 2** One-stop O&M platform
@@ -34,13 +34,13 @@ Advantages
 ----------
 
 
-.. figure:: /_static/images/en-us_image_0000002289468909.png
+.. figure:: /_static/images/en-us_image_0000002482912656.png
    :alt: **Figure 3** AOM advantage 1
 
    **Figure 3** AOM advantage 1
 
 
-.. figure:: /_static/images/en-us_image_0000002254868648.png
+.. figure:: /_static/images/en-us_image_0000002515112663.png
    :alt: **Figure 4** AOM advantage 2
 
    **Figure 4** AOM advantage 2
@@ -55,4 +55,4 @@ Advantages
 
 -  **Open ecosystem**
 
-   APIs for querying O&M data are opened and data collection standards are available, making independent development feasible.
+   O&M data query APIs are opened, collection standards are provided, and independent development is supported.

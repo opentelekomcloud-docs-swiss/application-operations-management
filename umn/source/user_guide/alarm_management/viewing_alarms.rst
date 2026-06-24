@@ -20,6 +20,8 @@ The alarm list provides the following key functions:
 Procedure
 ---------
 
+#. On the menu bar, choose **Monitoring Center**.
+
 #. In the navigation pane, choose **Alarm Management** > **Alarm List**.
 
 #. Click the **Alarms** tab to view the alarm information.
@@ -28,9 +30,9 @@ Procedure
 
       Method 1: Use the predefined time label, such as **Last hour** or **Last 6 hours**. You can select a time range as required.
 
-      Method 2: Specify the start time and end time to customize a time range. You can specify 31 days at most.
+      Method 2: Specify the start time and end time (max. 31 days).
 
-   b. Set the interval for refreshing alarms. Click |image1| and select a value from the drop-down list as required, such as **Refresh manually** or **1 minute auto refresh**.
+   b. Set the interval for refreshing alarms. Click |image1| and select a value from the drop-down list, such as **Refresh manually** or **1 minute auto refresh**.
 
    c. Set filter criteria and click |image2| to view the alarms generated in the period.
 
@@ -40,24 +42,26 @@ Procedure
 
    .. table:: **Table 1** Operations
 
-      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Operation                         | Description                                                                                                                                       |
-      +===================================+===================================================================================================================================================+
-      | Viewing alarm statistics          | Click |image3|, and view alarm statistics that meet filter criteria within a specific time range on a bar graph.                                  |
-      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Clearing alarms                   | -  To clear an alarm, click |image4| in the **Operation** column of the target alarm.                                                             |
-      |                                   | -  To clear one or more alarms, select them and click **Clear** in the displayed dialog box.                                                      |
-      |                                   |                                                                                                                                                   |
-      |                                   |    .. note::                                                                                                                                      |
-      |                                   |                                                                                                                                                   |
-      |                                   |       You can clear alarms after the problems that cause them are resolved.                                                                       |
-      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Viewing alarm details             | Click an alarm name to view alarm details and handling suggestions.                                                                               |
-      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
-      | Viewing cleared alarms            | Click **Active Alarms** in the upper right corner and select **Historical Alarms** from the drop-down list to view alarms that have been cleared. |
-      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------+
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Operation                         | Description                                                                                                                                                   |
+      +===================================+===============================================================================================================================================================+
+      | Viewing alarm statistics          | Click |image3|, and view alarm statistics that meet filter criteria within a specific time range on a bar graph.                                              |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Clearing alarms                   | -  To clear an alarm, click |image4| in the **Operation** column of the target alarm.                                                                         |
+      |                                   | -  To clear one or more alarms, select them and click **Clear** in the displayed dialog box.                                                                  |
+      |                                   |                                                                                                                                                               |
+      |                                   |    .. note::                                                                                                                                                  |
+      |                                   |                                                                                                                                                               |
+      |                                   |       You can clear alarms after the problems that cause them are resolved.                                                                                   |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Viewing alarm details             | Click an alarm name to view alarm details, including alarm information and handling suggestions. You can also view a bound alarm action rule if there is any. |
+      |                                   |                                                                                                                                                               |
+      |                                   | On the **Alarm Info** tab page, click the alarm rule in blue to drill down to view details.                                                                   |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
+      | Viewing cleared alarms            | Click **Active Alarms** in the upper right corner and select **Historical Alarms** from the drop-down list to view alarms that have been cleared.             |
+      +-----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-.. |image1| image:: /_static/images/en-us_image_0000002289582489.png
-.. |image2| image:: /_static/images/en-us_image_0000002289469413.png
-.. |image3| image:: /_static/images/en-us_image_0000002254869156.png
-.. |image4| image:: /_static/images/en-us_image_0000002254869168.png
+.. |image1| image:: /_static/images/en-us_image_0000002514992927.png
+.. |image2| image:: /_static/images/en-us_image_0000002515112931.png
+.. |image3| image:: /_static/images/en-us_image_0000002482792958.png
+.. |image4| image:: /_static/images/en-us_image_0000002515112933.png

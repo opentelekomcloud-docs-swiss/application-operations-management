@@ -5,4 +5,4 @@
 Overview
 ========
 
-AOM allows you to customize alarm action rules. You can create an alarm action rule and associate it with an SMN topic and a message template. You can also customize notification content based on a message template.
+AOM allows you to customize alarm action rules. You can create an alarm action rule to associate an SMN topic with a message template. You can also customize notification content based on a message template.

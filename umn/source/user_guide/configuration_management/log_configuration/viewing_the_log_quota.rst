@@ -5,6 +5,8 @@
 Viewing the Log Quota
 =====================
 
+#. On the menu bar, choose **Monitoring Center**.
+
 #. Log in to the AOM console. In the navigation pane, choose **Configuration Management** > **Log Configuration**.
 
 #. On the **Quota Details** tab page, view the log size and retention period.

@@ -6,6 +6,7 @@ Alarm Management
 ================
 
 -  :ref:`Alarm Rules <mon_01_0006>`
+-  :ref:`Alarm Templates <mon_01_0075>`
 -  :ref:`Viewing Alarms <mon_01_0011>`
 -  :ref:`Viewing Events <mon_01_0012>`
 -  :ref:`Alarm Action Rules <mon_01_0013>`
@@ -15,6 +16,7 @@ Alarm Management
    :hidden: 
 
    alarm_rules/index
+   alarm_templates
    viewing_alarms
    viewing_events
    alarm_action_rules/index

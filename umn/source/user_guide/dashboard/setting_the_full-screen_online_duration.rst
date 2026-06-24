@@ -16,10 +16,6 @@ Precautions
 
 -  The full-screen online duration is irrelevant to operations. If the preset duration times out, the login page is automatically displayed.
 
--  The full-screen online duration is subject to your latest setting.
-
-   For example, if full-screen monitoring is implemented on multiple screens, the online duration is subject to the latest setting.
-
 -  The full-screen online duration takes precedence over the automatic logout mechanism of the cloud.
 
    For example, if you log in to the console, set the full-screen online duration to 2 hours on AOM pages, and then open other pages, your setting on the AOM pages also takes effect on other pages. That is, the login page will be automatically displayed 2 hours later.
@@ -31,17 +27,13 @@ Precautions
 Procedure
 ---------
 
+#. On the menu bar, choose **Monitoring Center**.
+
 #. In the navigation pane, choose **Dashboard**.
 
-#. Click a target dashboard and click |image1| in the upper right corner of the **Dashboard** page.
+#. Click a target dashboard and click |image1| in the upper right corner of the dashboard details page.
 
-#. In the displayed dialog box, set the full-screen online duration. For details, see :ref:`Table 1 <mon_01_0041__en-us_topic_0000001294589625_table2466533131215>`.
-
-
-   .. figure:: /_static/images/en-us_image_0000002254869040.png
-      :alt: **Figure 1** Setting the online duration
-
-      **Figure 1** Setting the online duration
+#. In the dialogue box that is displayed, set the full-screen online duration. For details, see :ref:`Table 1 <mon_01_0041__en-us_topic_0000001294589625_table2466533131215>`.
 
    .. _mon_01_0041__en-us_topic_0000001294589625_table2466533131215:
 
@@ -72,4 +64,4 @@ Procedure
 
 #. Click **OK** to enter the full-screen mode.
 
-.. |image1| image:: /_static/images/en-us_image_0000002289582365.png
+.. |image1| image:: /_static/images/en-us_image_0000002515112893.png

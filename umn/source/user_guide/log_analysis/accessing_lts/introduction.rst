@@ -5,7 +5,7 @@
 Introduction
 ============
 
-Log Tank Service (LTS) allows you to search for and dump logs. By setting access rules, you can map the logs of CCE workloads from AOM to LTS for analysis.
+Log Tank Service (LTS) provides functions such as log search and dump. By adding access rules, you can map logs of Cloud Container Engine (CCE) workloads in AOM to LTS. Then you can view and analyze logs on LTS.
 
 What Is Mapping?
 ----------------
@@ -14,7 +14,7 @@ AOM logs exist in LTS in the form of a log stream, as shown in :ref:`Figure 1 <a
 
 .. _aom_02_1201__fig11995544194720:
 
-.. figure:: /_static/images/en-us_image_0000002289582293.png
+.. figure:: /_static/images/en-us_image_0000002482912938.png
    :alt: **Figure 1** Before mapping
 
    **Figure 1** Before mapping
@@ -23,7 +23,7 @@ After you create log stream A and an access rule, the mapping from AOM to LTS is
 
 .. _aom_02_1201__fig36185512471:
 
-.. figure:: /_static/images/en-us_image_0000002254868956.png
+.. figure:: /_static/images/en-us_image_0000002482912932.png
    :alt: **Figure 2** After mapping
 
    **Figure 2** After mapping
@@ -37,7 +37,7 @@ If you modify a mapping, for example, change log stream A to log stream B, new l
 
 .. _aom_02_1201__fig1663425210110:
 
-.. figure:: /_static/images/en-us_image_0000002289582285.png
+.. figure:: /_static/images/en-us_image_0000002482792970.png
    :alt: **Figure 3** Modifying a mapping
 
    **Figure 3** Modifying a mapping
@@ -51,7 +51,7 @@ When you delete an access rule or a mapped log stream, the corresponding mapping
 
 .. _aom_02_1201__fig188294571843:
 
-.. figure:: /_static/images/en-us_image_0000002254812004.png
+.. figure:: /_static/images/en-us_image_0000002482912940.png
    :alt: **Figure 4** Deleting a mapping
 
    **Figure 4** Deleting a mapping
@@ -66,7 +66,7 @@ Duplicate Mapping
 If a workload or file is mapped to both log streams A and B, new logs will be reported to both of them. Duplicate logs exist on AOM. Therefore, duplicate mapping is not recommended.
 
 
-.. figure:: /_static/images/en-us_image_0000002289469201.png
+.. figure:: /_static/images/en-us_image_0000002482912934.png
    :alt: **Figure 5** Duplicate mapping
 
    **Figure 5** Duplicate mapping

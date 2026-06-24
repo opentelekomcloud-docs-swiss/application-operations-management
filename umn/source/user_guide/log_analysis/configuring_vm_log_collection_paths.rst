@@ -19,10 +19,12 @@ Precautions
 -  Ensure that an absolute path of the log directory or file is configured and the path exists. For example, **/opt/yilu/work/xig** or **/opt/yilu/work/xig/debug_cpu.log**.
 -  An ICAgent does not collect log files from subdirectories. For example, the ICAgent does not collect log files from the **/opt/yilu/work/xig/debug** subdirectory of **/opt/yilu/work/xig**.
 -  A maximum of 20 log collection paths can be configured for a VM.
--  For ECSs in the same resource set, only the latest log collection configuration in the system will be used. AOM and LTS log collection configurations cannot take effect at the same time. For example, if you configure log collection paths in AOM for ECSs, the previous LTS collection configurations of all ECSs under the resource set become invalid.
+-  For ECSs in the same resource space, only the latest log collection configuration in the system will be used. AOM and LTS log collection configurations cannot take effect at the same time. For example, if you configure log collection paths in AOM for ECSs, the previous collection configurations you made in LTS for these ECSs become invalid.
 
 Configuring Log Collection Paths
 --------------------------------
+
+#. On the menu bar, choose **Monitoring Center**.
 
 #. In the navigation pane, choose **Log Analysis** > **Path Configuration**.
 
@@ -36,11 +38,23 @@ Configuring Log Collection Paths
 
       You can click |image2| in the **Operation** column to add a path automatically identified by the ICAgent to the log collection path list. To configure multiple paths, repeat this operation.
 
+
+      .. figure:: /_static/images/en-us_image_0000002483052922.png
+         :alt: **Figure 1** Using the paths automatically identified by the ICAgent
+
+         **Figure 1** Using the paths automatically identified by the ICAgent
+
    -  **Manually configuring log collection paths**
 
       If the paths automatically identified by the ICAgent cannot meet your requirements, enter a log directory or file (for example, **/usr/local/uniagentd/log/agent.log**) in the **Log Collection Path** text box, and then add the path to the log collection path list. To configure multiple paths, repeat this operation.
 
-#. Click **Confirm**.
+
+      .. figure:: /_static/images/en-us_image_0000002483053068.png
+         :alt: **Figure 2** Manually configuring log collection paths
+
+         **Figure 2** Manually configuring log collection paths
+
+#. Click **OK**.
 
 Viewing VM Logs
 ---------------
@@ -55,5 +69,5 @@ After a log collection path is configured, the ICAgent collects log files from t
 
    In the navigation pane, choose **Log Analysis** > **Log Search**. Click the **Host** tab to view and analyze the collected logs by time range, keyword, and context. For details, see :ref:`Searching for Logs <aom_02_0009>`.
 
-.. |image1| image:: /_static/images/en-us_image_0000002289582109.png
-.. |image2| image:: /_static/images/en-us_image_0000002289469029.png
+.. |image1| image:: /_static/images/en-us_image_0000002514993029.png
+.. |image2| image:: /_static/images/en-us_image_0000002514993031.png
